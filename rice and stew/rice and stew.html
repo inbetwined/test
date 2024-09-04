@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rice and Stew - Bakery.net</title>
+    <link rel="stylesheet" href="rice and stew.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Bakery.net</div>
+        <div class="nav-toggle" id="navToggle">&#9776;</div>
+        <nav id="navMenu">
+            <a href="../Homepage.html">Home</a>
+            <a href="../recipes/recipes.html">Recipes</a>
+            <a href="../about/about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Recipe Details -->
+    <section class="recipe-details">
+        <h1>Rice and Stew</h1>
+        <img src="../assets/rice and stew.jpeg" alt="Rice and Stew" class="main-image">
+        <div class="recipe-info">
+            <p><strong>Preparation Time:</strong> 10 minutes</p>
+            <p><strong>Cooking Time:</strong> 30 minutes</p>
+            <h2>Ingredients:</h2>
+            <ul>
+                <li>1 cup rice</li>
+                <li>2 cups water</li>
+                <li>1/2 cup stew</li>
+                <li>Salt to taste</li>
+                <li>Oil (optional)</li>
+            </ul>
+            <h2>Instructions:</h2>
+            <ol>
+                <li>Rinse the rice thoroughly under cold water.</li>
+                <li>In a pot, bring 2 cups of water to a boil.</li>
+                <li>Add the rice and cook on medium heat until the water is absorbed and the rice is tender (about 15-20 minutes).</li>
+                <li>In a separate pan, heat the stew and add salt to taste.</li>
+                <li>Serve the rice with the stew on top.</li>
+            </ol>
+            <h2>Serving Suggestions:</h2>
+            <p>Serve with a side of vegetables or your favorite protein for a complete meal.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bakery.net. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('navToggle').addEventListener('click', function() {
+            var navMenu = document.getElementById('navMenu');
+            navMenu.style.display = navMenu.style.display === 'block' ? 'none' : 'block';
+        });
+    </script>
+</body>
+</html>

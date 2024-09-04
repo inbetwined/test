@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beans Recipe - Bakery.net</title>
+    <link rel="stylesheet" href="beans.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Bakery.net</div>
+        <div class="nav-toggle" id="navToggle">&#9776;</div>
+        <nav id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="recipes.html">Recipes</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="beans-hero.jpg" alt="Delicious Beans">
+        <h1>Delicious Beans Recipe</h1>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="introduction">
+        <h2>Introduction</h2>
+        <p>This beans recipe is a hearty, nutritious dish that is perfect for a family meal or a cozy dinner. Rich in flavor and easy to prepare, it's a must-try!</p>
+    </section>
+
+    <!-- Ingredients Section -->
+    <section class="ingredients">
+        <h2>Ingredients</h2>
+        <ul>
+            <li>2 cups of dried beans (any variety)</li>
+            <li>1 onion, chopped</li>
+            <li>2 garlic cloves, minced</li>
+            <li>1 tablespoon vegetable oil</li>
+            <li>Salt and pepper to taste</li>
+            <li>Optional: Spices such as cumin or chili powder</li>
+        </ul>
+    </section>
+
+    <!-- Instructions Section -->
+    <section class="instructions">
+        <h2>Instructions</h2>
+        <ol>
+            <li>Soak the beans overnight in a large bowl of water.</li>
+            <li>Drain and rinse the beans, then place them in a large pot with fresh water.</li>
+            <li>Bring to a boil, then reduce the heat and simmer for 1-2 hours, or until the beans are tender.</li>
+            <li>In a separate pan, heat the vegetable oil and sauté the chopped onion and minced garlic until golden.</li>
+            <li>Add the sautéed onions and garlic to the beans, along with salt, pepper, and any optional spices.</li>
+            <li>Simmer for another 15-20 minutes to allow the flavors to blend.</li>
+            <li>Serve hot, garnished with fresh herbs if desired.</li>
+        </ol>
+    </section>
+
+    <!-- Prep and Cook Time Section -->
+    <section class="time-info">
+        <h2>Preparation and Cook Time</h2>
+        <p>Preparation Time: 10 minutes (plus overnight soaking)</p>
+        <p>Cooking Time: 1.5 - 2 hours</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bakery.net. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('navToggle').addEventListener('click', function() {
+            var navMenu = document.getElementById('navMenu');
+            navMenu.style.display = navMenu.style.display === 'block' ? 'none' : 'block';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery.net - Recipes</title>
+    <link rel="stylesheet" href="recipes.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Bakery.net</div>
+        <div class="nav-toggle" id="navToggle">&#9776;</div>
+        <nav id="navMenu">
+            <a href="../Homepage.html">Home</a>
+            <a href="recipes.html">Recipes</a>
+            <a href="../about/about.html">About</a>
+            <a href="http://">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Our Delicious Recipes</h1>
+        <input type="text" placeholder="Search recipes..." class="search-bar">
+    </section>
+
+    <!-- Recipe List/Grid -->
+    <section class="recipe-gallery">
+        <!-- Rice and Stew -->
+        <div class="recipe-card">
+            <img src="../assets/rice and stew.jpeg" alt="Rice and Stew">
+            <div class="recipe-info">
+                <h3>Rice and Stew</h3>
+                <p>Prep Time: 10 mins | Cook Time: 30 mins</p>
+                <a href="../rice and stew/rice and stew.html" class="view-recipe-btn">View Recipe</a>
+            </div>
+        </div>
+        <!-- Beans -->
+        <div class="recipe-card">
+            <img src="../assets/beans.jpeg" alt="Beans">
+            <div class="recipe-info">
+                <h3>Beans</h3>
+                <p>Prep Time: 15 mins | Cook Time: 45 mins</p>
+                <a href="../beans/beans.html" class="view-recipe-btn">View Recipe</a>
+            </div>
+        </div>
+        <!-- Yam and Pepper Soup -->
+        <div class="recipe-card">
+            <img src="../assets/yam and pepper soup.jpeg" alt="Yam and Pepper Soup">
+            <div class="recipe-info">
+                <h3>Yam and Pepper Soup</h3>
+                <p>Prep Time: 15 mins | Cook Time: 45 mins</p>
+            </div>
+        </div>
+        <!-- Eba and Melon Soup -->
+        <div class="recipe-card">
+            <img src="../assets/Eba and Melon soup.jpeg" alt="Eba and Melon Soup">
+            <div class="recipe-info">
+                <h3>Eba and Melon Soup</h3>
+                <p>Prep Time: 15 mins | Cook Time: 40 mins</p>sa
+            </div>
+        </div>
+        <!-- Yam Porridge -->
+        <div class="recipe-card">
+            <img src="../assets/yam porridge.jpeg" alt="Yam Porridge">
+            <div class="recipe-info">
+                <h3>Yam Porridge</h3>
+                <p>Prep Time: 15 mins | Cook Time: 30 mins</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bakery.net. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('navToggle').addEventListener('click', function() {
+            var navMenu = document.getElementById('navMenu');
+            navMenu.style.display = navMenu.style.display === 'block' ? 'none' : 'block';
+        });
+    </script>
+</body>
+</html>

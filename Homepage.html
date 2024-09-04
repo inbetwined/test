@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bakery.net</title>
+    <link rel="stylesheet" href="Homepage.css">
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <div class="logo">Bakery.net</div>
+        <div class="nav-toggle" id="navToggle">&#9776;</div>
+        <nav id="navMenu">
+            <a href="Homepage.html">Home</a>
+            <a href="recipes/recipes.html">Recipes</a>
+            <a href="about/about.html">About</a>
+            <a href="http://">Contact</a>
+        </nav>
+    </header>
+       
+    
+
+     <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h1>Your Gateway to Culinary Delights</h1>
+            <h1><i>Welcome to Bakery.net - Your Go-To Recipe Hub</i></h1>
+            <p>Find your next favorite dish with our curated collection of recipes.</p>
+            <form>
+                <input type="text" placeholder="Search for a recipe..." class="search-bar">
+            </form>
+        </div>
+    </section>
+    <!-- Main Content Section -->
+    <main>
+        <section class="recipe-gallery">
+            <div class="recipe-card">
+                <img src="assets/rice and stew.jpeg" alt="rice and stew">
+                <h2>Rice and Stew</h2>
+                <p>prep time: 50mins | cook time: 40mins</p>
+            </div>
+            <div class="recipe-card">
+                <img src="./assets/beans.jpeg" alt="Beans">
+                <h2>Cooked beans</h2>
+                <p>prep time: 10mins | Cook time: 1hr 10mins</p>
+            </div>
+            <div class="recipe-card">
+                <img src="./assets/yam and pepper soup.jpeg" alt="yam and pepper soup">
+                <h2>Yam and Pepper Soup</h2>
+                <p>prep time: 15mins | Cook time: 45mins</p>
+            </div>
+            <div class="recipe-card">
+                <img src="./assets/Eba and Melon soup.jpeg" alt="Eba and melon soup">
+                <h2>Eba and Melon Soup</h2>
+                <p>prep time: 15mins | Cook time: 45mins</p>
+            </div>
+            <div class="recipe-card">
+                <img src="./assets/yam porridge.jpeg" alt="yam porridge">
+                <h2>Yam Porridge</h2>
+                <p>prep time: 15mins | Cook time: 30mins</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Bakery.net. All rights reserved.</p>
+    </footer>
+    <script>
+        document.getElementById('navToggle').addEventListener('click', function() {
+            var navMenu = document.getElementById('navMenu');
+            navMenu.style.display = navMenu.style.display === 'block' ? 'none' : 'block';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Bakery.net</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Bakery.net</div>
+        <div class="nav-toggle" id="navToggle">&#9776;</div>
+        <nav id="navMenu">
+            <a href="../Homepage.html">Home</a>
+            <a href="../recipes/recipes.html">Recipes</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Bakery.net</h1>
+        <p>Where Delicious Meets Simplicity</p>
+    </section>
+
+    <!-- Introduction -->
+    <section class="introduction">
+        <h2>About Bakery.net</h2>
+        <p>Bakery.net is your go-to destination for simple and delicious recipes. Whether you're a seasoned chef or just starting in the kitchen, our recipes are designed to bring joy and flavor to your table with ease.</p>
+    </section>
+
+    <!-- Mission Statement -->
+    <section class="mission">
+        <h2>Our Mission</h2>
+        <p>To make cooking accessible and enjoyable for everyone by sharing easy-to-follow recipes that bring out the best in every dish.</p>
+    </section>
+
+    <!-- Our Story -->
+    <section class="our-story">
+        <h2>Our Story</h2>
+        <p>Bakery.net was born out of a passion for cooking and a desire to share the joy of homemade meals. What started as a small collection of family recipes has grown into a community where food lovers come together to explore and create. Join us as we continue to discover new flavors and techniques, all while keeping things simple and fun.</p>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="call-to-action">
+        <h2>Explore More Recipes</h2>
+        <a href="../recipes/recipes.html" class="cta-button">View Recipes</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bakery.net. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('navToggle').addEventListener('click', function() {
+            var navMenu = document.getElementById('navMenu');
+            navMenu.style.display = navMenu.style.display === 'block' ? 'none' : 'block';
+        });
+    </script>
+</body>
+</html>
